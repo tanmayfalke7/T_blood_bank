@@ -5,6 +5,10 @@ import pandas as pd
 import re
 from datetime import datetime
 
+import { put } from "@vercel/blob";
+
+const { url } = await put('articles/blob.txt', 'Hello World!', { access: 'public' });
+
 # Database Connection Pool
 db_config = {
     "host": "localhost",
