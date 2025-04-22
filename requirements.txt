@@ -1,0 +1,7 @@
+streamlit==1.33.0
+mysql-connector-python==8.3.0
+pandas==2.2.2
+sqlalchemy==2.0.29
+reportlab==4.1.0            # for generating PDFs
+matplotlib==3.8.4           # optional: for visualizations like charts
+plotly==5.21.0              # optional: interactive plots if used
